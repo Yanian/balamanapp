@@ -26,8 +26,32 @@ Checklist
 
 <hr/>
 
-Setup Files
+#Setup Files
 App Information ```package.json```
 App Documentation ```README.md```
 App Ignore Files ```.gitignore```
 App Tasks ```tasks.todo```
+
+<hr/>
+
+#SSH/HTTP Troubleshooting Codes
+
+* ```$ cd ~/.ssh```
+* ```$ ssh-keygen -t rsa -b 4096 -C "your email address"```
+
+```
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Admin10/.ssh/id_rsa): id_rsa_clydeinwebdev
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+```
+
+* ```$ eval "$(ssh-agent -s)"```
+* ```$ ssh-add ~/.ssh/id_rsa_clydeinwebdev```
+* ```$ clip < ~/.ssh/id_rsa_clydeinwebdev.pub```
+* Paste the code in to your github ssh settings
+
+* ```$ git remote set-url origin git@github.com:clydeinwebdev/balamanapp.git```
+* ```$ git remote -v```
+* ```$ git remote set-url origin https://github.com/clydeinwebdev/balamanapp.git```
+* ```$ git push -u origin master```
