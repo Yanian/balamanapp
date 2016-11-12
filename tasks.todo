@@ -40,5 +40,27 @@ App:
   Deploy to Heroku:
     ☐ Download and Install Heroku Toolbelt 
     ☐ Follow this link (https://devcenter.heroku.com/articles/heroku-command-line#download-and-install)
-
-
+      ☐ Launch command prompt
+      ☐ $ heroku
+      ☐ $ heroku login
+      ☐ $ touch app.json
+        {
+          "name": "Node.js Getting Started",
+          "description": "A sample app",
+          "repository": "https://github.com/clydeinwebdev/balamanapp.git",
+          "image": "heroku/nodejs"
+        }
+      ☐ $ touch Procfile
+        
+        web: node server.js
+      ☐ $ update package.json
+         {
+           ....
+             "engines": {
+                "node": "4.4.7"
+              }
+         }
+      ☐ $ heroku create balamanapp
+      ☐ $ git push heroku master
+      ☐ Open browser and verify app
+      ☐ $ heroku local web
