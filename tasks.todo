@@ -29,7 +29,7 @@ App:
     $ npm install --save express
     $ npm install --save consolidate 
     $ npm install --save handlebars
-  ☐ Push to remote repository (e.g. Github)
+  ✔ Push to remote repository (e.g. Github) @done (16-11-13 02:41)
     $ git init
     $ git add .
     $ git commit -m "commit message"
@@ -37,4 +37,8 @@ App:
     $ git config user.name "example"
     $ git remote add http://github.com/username/reponame
     $ git push -u origin master
-  ☐ Deploy to Heroku
+  Deploy to Heroku:
+    ☐ Download and Install Heroku Toolbelt 
+    ☐ Follow this link (https://devcenter.heroku.com/articles/heroku-command-line#download-and-install)
+
+
