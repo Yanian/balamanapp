@@ -23,3 +23,11 @@ Checklist
        - app.js
  5. Synchronize local and remote repo
  6. Deploy it to heroku
+
+<hr/>
+
+Setup Files
+App Information ```package.json```
+App Documentation ```README.md```
+App Ignore Files ```.gitignore```
+App Tasks ```tasks.todo```

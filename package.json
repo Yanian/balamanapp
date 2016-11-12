@@ -1,0 +1,26 @@
+{
+  "name": "balamanapp",
+  "version": "1.0.0",
+  "description": "Tools for Midterm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clydeinwebdev/balamanapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clydeinwebdev/balamanapp/issues"
+  },
+  "homepage": "https://github.com/clydeinwebdev/balamanapp#readme",
+  "dependencies": {
+    "consolidate": "^0.14.4",
+    "express": "^4.14.0",
+    "handlebars": "^4.0.5",
+    "swig": "^1.4.2"
+  }
+}

@@ -1,0 +1,40 @@
+App:
+  ✔ Initialize node package manager @done (16-11-13 02:05)
+    $ mkdir app_directoryname && cd app_directoryname
+    $ npm init -y
+  ✔ Create the following files inside the **public** folder @done (16-11-13 02:05)
+      css/
+        app.css
+      js/
+        app.js
+      app.html
+  ✔ Create server.js @done (16-11-13 02:05)
+    var express = require('express');
+    var cons = require('consolidate');
+    var app = express();
+
+    app.engine('html',cons.handlebars);
+    app.set('view engine', 'html');
+    app.set('views', __dirname + '/public');
+    app.use(express.static('public'));
+
+    app.get('/', function (req, res) {
+      res.render('app',{title: 'Balaman App', message: '<h1>ehem</h1>'});
+    });
+     
+    app.listen(3000,function(){
+      console.log("Server is running at localhost:3000");
+    });
+  ✔ Install locally express, consolidate, handlebars @done (16-11-13 02:08)
+    $ npm install --save express
+    $ npm install --save consolidate 
+    $ npm install --save handlebars
+  ☐ Push to remote repository (e.g. Github)
+    $ git init
+    $ git add .
+    $ git commit -m "commit message"
+    $ git config user.email "example@domain.com"
+    $ git config user.name "example"
+    $ git remote add http://github.com/username/reponame
+    $ git push -u origin master
+  ☐ Deploy to Heroku
