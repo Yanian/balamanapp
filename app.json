@@ -1,0 +1,6 @@
+{
+	"name": "Node.js Getting Started",
+	"description": "A sample app",
+	"repository": "https://github.com/clydeinwebdev/balamanapp.git",
+	"image": "heroku/nodejs"
+}
