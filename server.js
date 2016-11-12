@@ -9,7 +9,7 @@ app.set('views', __dirname + '/public');
 app.use(express.static('public'));
 
 app.get('/', function (req, res) {
-  res.render('app',{title: 'Balaman App', message: '<h1>ehem</h1>'});
+  res.render('app',{title: 'Balaman App', message: '<h1>Heroku App is running!</h1>'});
 });
  
 app.listen(app.get('port'),function(){
