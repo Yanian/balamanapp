@@ -38,29 +38,29 @@ App:
     $ git remote add http://github.com/username/reponame
     $ git push -u origin master
   Deploy to Heroku:
-    ☐ Download and Install Heroku Toolbelt 
-    ☐ Follow this link (https://devcenter.heroku.com/articles/heroku-command-line#download-and-install)
-      ☐ Launch command prompt
-      ☐ $ heroku
-      ☐ $ heroku login
-      ☐ $ touch app.json
+    ✔ Download and Install Heroku Toolbelt  @done (16-11-13 11:27)
+    ✔ Follow this link (https://devcenter.heroku.com/articles/heroku-command-line#download-and-install) @done (16-11-13 11:27)
+      ✔ Launch command prompt @done (16-11-13 11:27)
+      ✔ $ heroku @done (16-11-13 11:27)
+      ✔ $ heroku login @done (16-11-13 11:27)
+      ✔ $ touch app.json @done (16-11-13 11:27)
         {
           "name": "Node.js Getting Started",
           "description": "A sample app",
           "repository": "https://github.com/clydeinwebdev/balamanapp.git",
           "image": "heroku/nodejs"
         }
-      ☐ $ touch Procfile
+      ✔ $ touch Procfile @done (16-11-13 11:27)
         
         web: node server.js
-      ☐ $ update package.json
+      ✔ $ update package.json @done (16-11-13 11:27)
          {
            ....
              "engines": {
                 "node": "4.4.7"
               }
          }
-      ☐ $ heroku create balamanapp
-      ☐ $ git push heroku master
-      ☐ Open browser and verify app
-      ☐ $ heroku local web
+      ✔ $ heroku create balamanapp @done (16-11-13 11:27)
+      ✔ $ git push heroku master @done (16-11-13 11:27)
+      ✔ Open browser and verify app @done (16-11-13 11:27)
+      ✔ $ heroku local web @done (16-11-13 11:27)
