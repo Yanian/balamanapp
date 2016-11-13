@@ -7,42 +7,42 @@ class App{
 				"Title":"Winter Is Coming",
 				"Year":"2011",
 				"Director":"Timothy Van Patten",
-				"Poster":"C:/Users/Admin10/Desktop/prelimexam//img/winteriscoming.jpg",
+				"Poster":"../img/winteriscoming.jpg",
 				"Actors":"Sean Bean, Mark Addy, Nikolaj Coster-Waldau, Michelle Fairley"
 			},
 			{
 				"Title":"The North Remembers",
 				"Year":"2012",
 				"Director":"Alan Taylor",
-				"Poster":"C:/Users/Admin10/Desktop/prelimexam//img/thenorthremembers.jpg",
+				"Poster":"../img/thenorthremembers.jpg",
 				"Actors":"Peter Dinklage, Lena Headey, Nikolaj Coster-Waldau, Michelle Fairley"
 			},
 			{
 				"Title":"Valar Dohaeris",
 				"Year":"2013",
 				"Director":"Daniel Minahan",
-				"Poster":"C:/Users/Admin10/Desktop/prelimexam//img/valar.jpg",
+				"Poster":"../img/valar.jpg",
 				"Actors":"Peter Dinklage, Lena Headey, Emilia Clarke, Kit Harington"
 			},
 			{
 				"Title":"Two Swords",
 				"Year":"2014",
 				"Director":"D.B. Weiss",
-				"Poster":"C:/Users/Admin10/Desktop/prelimexam//img/twoswords.jpg",
+				"Poster":"../img/twoswords.jpg",
 				"Actors":"Peter Dinklage, Nikolaj Coster-Waldau, Lena Headey, Emilia Clarke"
 			},
 			{
 				"Title":"The Wars to Come",
 				"Year":"2015",
 				"Director":"Michael Slovis",
-				"Poster":"C:/Users/Admin10/Desktop/prelimexam//img/thewarstocome.jpg",
+				"Poster":"../img/thewarstocome.jpg",
 				"Actors":"Peter Dinklage, Nikolaj Coster-Waldau, Lena Headey, Emilia Clarke"
 			},
 			{
 				"Title":"The Red Woman",
 				"Year":"2016",
 				"Director":"Jeremy Podeswa",
-				"Poster":"C:/Users/Admin10/Desktop/prelimexam//img/redwoman.jpg",
+				"Poster":"../img/redwoman.jpg",
 				"Actors":"Peter Dinklage, Nikolaj Coster-Waldau, Lena Headey, Emilia Clarke"
 			}
 		];
